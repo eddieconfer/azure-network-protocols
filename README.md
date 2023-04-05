@@ -22,10 +22,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- I created two vm's in Microsoft Azure. One vm was running Windows 10 and the other vm was running Linux (Ubuntu).
+- I had the Windows 10 vm constantly ping the Linux vm using ping -t.
+- I used Wireshark to show ICMP traffic.
+- I then used Wireshark to observe other types of traffic including SSH, DHCP, DNS,and RDP.
 
 <h2>Actions and Observations</h2>
 
